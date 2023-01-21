@@ -2,15 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background: grey;
-    color: rgb(76, 12, 4);
+    color: rgb(105, 17, 5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }
 
+.title-page{
+    color: rgb(245, 184, 62);
+    text-shadow: 1px 3px 6px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-page2{
+    color:  rgb(230, 161, 24);
+    text-shadow: 1px 3px 6px black;
+}
 
 .drapeau{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 2px 1px 2px rgb(105, 17, 5);
 }
 
 .header-container{
@@ -22,21 +33,34 @@ body{
 }
 
 .title-aticle{
-
     text-align: center;
 }
+
 .article-container{
     width: 100%;
     display: flex;
     text-align: center;
+    gap: 30px;
 }
 
 .img-filet{
+    border-radius: 20px;
     width: 300px;
     height: 350px;
+}
+.img-filet2{
+     width: 700px;
+    height: 400px;
+    border-radius: 15px;
 }
 
 form{
     display: flex;
     flex-direction: column;
+}
+.list-container{
+    list-style-type: none;
+    color:  rgb(221, 164, 51);
+    text-shadow: 1px 1px 2px black;
+    font-size: 1,5rem;
 }
