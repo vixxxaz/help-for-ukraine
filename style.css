@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+    color: rgb(76, 12, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.drapeau{
+    height: 150px;
+    width: 200px;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.title-aticle{
+
+    text-align: center;
+}
+.article-container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.img-filet{
+    width: 300px;
+    height: 350px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
